@@ -9,7 +9,7 @@ In my early school days, we would add numbers using vertical addition, and I thi
 
 We can iterate through the nodes of the linked lists and add the two numbers digit by digit. Using modulo, we can get the individual digit of the sum, and using floor division, we can calculate the carry.
 
-We keep adding digits until we've iterated through all the nodes in the linked lists and are left with no carries. Our result will be stored in a new linked list.
+We keep adding the digits until we've iterated through all the nodes in the linked lists and are left with no carry. Our result is stored in a new linked list.
 
 ```python
 # Definition for singly-linked list.
